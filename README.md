@@ -71,8 +71,8 @@ Portfolio performance was dragged down by the `AVGO-GOOGL` pair, as can be seen 
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/adk7712/ml-pairs-trading-pipeline](https://github.com/adk7712/ml-pairs-trading-pipeline)
-   cd ml-pairs-trading-pipeline
+   git clone https://github.com/adk7712/ml-pairs-trading-pipeline
+   ```
 
 2. **Install dependencies:**
     ```bash
@@ -92,3 +92,11 @@ Portfolio performance was dragged down by the `AVGO-GOOGL` pair, as can be seen 
 
 ## Future Work
 * **Risk-Parity Capital Allocation**: Move away from equal-weighting toward volatility-targeted allocation to improve the portfolio's overall Sharpe ratio.
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See the `LICENSE` file for more information.
+
+> **Disclaimer**: This software is for educational and research purposes only. It is not financial advice. The author is not responsible for any financial losses incurred from the use of this code.
