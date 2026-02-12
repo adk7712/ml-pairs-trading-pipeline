@@ -39,7 +39,7 @@ PCA_VARIANCE_THRESHOLD = 0.95
 # COINTEGRATINO INFO
 MIN_COINT_OBS = 30 # min observations required for coint test
 PVAL_THRESHOLD = 0.05 # p-value threshold for cointegration test
-MAX_HURST_EXPONENT = 0.45 # reject pairs with H >= 0.45
+MAX_HURST_EXPONENT = 0.45
 
 # STOP LOSS
 STOP_LOSS_Z_THRESHOLD = 4.0 # z-score threshold for stop loss
