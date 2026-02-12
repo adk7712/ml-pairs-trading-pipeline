@@ -30,7 +30,7 @@ The system utilizes a "Funnel" approach to ensure only the most robust pairs are
 
 ### 1. Asset Segmentation (ML Layer)
 * **Dimensionality Reduction**: Principal Component Analysis (PCA) is applied to the return correlation matrix, dynamically retaining components that explain **95% of total variance**.
-* **Unsupervised Clustering**: K-Means clustering is performed on the PCA-transformed space to group assets with similar statistical "DNA" into 6 distinct clusters.
+* **Unsupervised Clustering**: K-Means clustering is performed on the PCA-transformed space to group assets with similar statistical features into 6 distinct clusters.
 
 ### 2. Statistical Selection Funnel
 Within each cluster, pairs must pass a three-tier rigorous test:
