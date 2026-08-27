@@ -34,7 +34,7 @@ The system utilizes a "Funnel" approach to ensure only the most robust pairs are
 
 ### 2. Statistical Selection Funnel
 Within each cluster, pairs must pass a three-tier rigorous test:
-* **Engle-Granger Cointegration**: Ensures a long-term equilibrium relationship ($p < 0.05$).
+* **Engle-Granger Cointegration**: Ensures a long-term equilibrium relationship (p < 0.05).
 * **Ornstein-Uhlenbeck Half-Life**: Rejects pairs with mean reversion speeds that are too fast (< 20 days) or too slow (> 250 days).
 * **Hurst Exponent Filter**: Strictly accepts only series with **H < 0.45** to confirm mean-reverting behavior and filter out "drifting" pairs.
 
